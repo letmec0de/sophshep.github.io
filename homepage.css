@@ -1,0 +1,153 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border-radius: 10px;
+    background-color: rgb(199, 236, 238);
+}
+.header{
+    border: 1px solid green;
+    background-color: rgba(106, 176, 76,1.0);
+    position: sticky;
+    top: 0px;
+    border-radius: 20px;
+   
+    
+}
+h1{
+    color: rgba(186, 220, 88,1.0);
+    font-size: 50px;
+
+}
+
+.header-element{
+    display: inline-block;
+    margin-left: 10px
+    
+}
+.logo{
+    width: 40px;
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    right: 80px;
+    margin-top: 28px;
+    margin-bottom: auto;
+  }
+
+.dropbtn {
+    background-color: rgba(149, 175, 192,1.0);
+
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: rgb(0, 148, 50);
+    font-weight: 200;
+    font-weight: bold;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: rgb(223, 230, 233);
+    border-radius: 20px;
+    
+
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(96, 146, 146);
+  }
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn:hover {
+    background-color:rgb(163, 203, 56);
+  }
+  .ag{
+    padding: 5px;
+    display: block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+    color: rgb(106, 176, 76);
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  angiang{
+    font-style: italic;
+    font-weight:100;
+    width: 900px;
+    text-align: center;
+    font-weight: bold;
+
+  }
+  h3{
+    color:rgb(68, 189, 50);
+    margin-left: 20px;
+    font-weight: bold;
+    font-style: italic;
+    
+  }
+  .paragrap{
+    width: 400px;
+    color:rgb(64, 115, 158) ;
+    font-style: italic;
+    margin-left: 10px;
+    font-weight: bold;
+
+  }
+  .intro{
+    display: flex;
+    
+  }
+
+.pic{
+    width: 400px;
+    border-radius: 10px;    
+}
+.traveladdress{
+    margin-left: 10px;
+}
+.dicstrict{
+    background-color: aqua;
+}
+.describe{
+    font-weight: bold;
+    color: rgb(68, 122, 30);
+    margin-left: 10px;
+}
+.pic-address{
+    width: 850px;
+    padding: 5px;
+    display: block;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+    
+}
+h4{
+   color: rgb(45, 52, 54); 
+   text-decoration: underline;
+}
+
